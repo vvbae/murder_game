@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-// import SideBar from "../pages/sideBar";
-import SQLRepl from "../components/sqlRepl";
+import SideBar from "../pages/sideBar";
+// import SQLRepl from "../components/sqlRepl";
 import { getDbData } from "../services/services";
 import initSqlJs from "sql.js";
 
@@ -30,5 +30,5 @@ export default function InitDb() {
 
     if (error) return <pre>{error.toString()}</pre>;
     else if (!db) return <pre>Loading...</pre>;
-    else return <SQLRepl db={db} />;
+    else return <SideBar db={db} />;
 }

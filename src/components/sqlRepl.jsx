@@ -24,7 +24,6 @@ export default function SQLRepl({ db }) {
     }
 
     useEffect(() => {
-      const sql = "select * from bus_person limit 1;";
       const commands = sql.split(' ');
       commands.map(command => command.toLowerCase());
       isValid = commands.includes("select");
