@@ -1,0 +1,20 @@
+body {
+	margin: 0;
+}
+
+.react-terminal-wrapper {
+	position: fixed;
+	height: 100vh;
+	width: 800px;
+	border-radius: 0;
+}
+
+.react-terminal {
+	padding-bottom: 20px;
+	display: block;
+	overflow-x: scroll;
+}
+
+.react-terminal-active-input {
+	padding-bottom: 40px;
+}

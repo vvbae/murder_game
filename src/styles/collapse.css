@@ -1,0 +1,25 @@
+.__dbk__container, .__dbk__child-wrapper {
+    height: 100vh;
+    background-color: #252a33;
+}
+
+.__dbk__gutter.Dark {
+    background: #1d1f24;
+}
+
+.collapse {
+    margin: 50px;
+    font-family: 'Fira Mono', Consolas, Menlo, Monaco, 'Courier New', Courier, monospace;
+}
+
+.collapse button {
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    font-size: large;
+    margin-left: 0;
+    font-family: 'Fira Mono', Consolas, Menlo, Monaco, 'Courier New', Courier, monospace;
+}
