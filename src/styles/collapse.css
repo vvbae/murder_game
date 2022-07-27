@@ -7,6 +7,10 @@
     background: #1d1f24;
 }
 
+.__dbk__gutter.Horizontal {
+    height: 100%;
+}
+
 .collapse {
     margin: 50px;
     font-family: 'Fira Mono', Consolas, Menlo, Monaco, 'Courier New', Courier, monospace;
