@@ -7,6 +7,11 @@ module.exports = {
                     test: /\.wasm$/,
                     type: 'javascript/auto',
                 }]
+            },
+            devServer: {
+                proxy: {
+                    '/api': 'http://localhost:3080'
+                }
             }
         }
     }

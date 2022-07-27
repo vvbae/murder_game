@@ -2,7 +2,7 @@ const path = require('path');
 const express = require('express');
 
 const app = express();
-const port = process.env.PORT || 3080;
+const port = 3080;
 
 const DbMgmt = require('./readDB');
 app.use(express.urlencoded({ extended: false }));
