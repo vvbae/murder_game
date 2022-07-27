@@ -1,6 +1,7 @@
 .sidebar {
     overflow-y:scroll; 
-    height: 95vh;
+    height: 85vh;
+    margin-top: 60px;
 }
 
 ::-webkit-scrollbar {

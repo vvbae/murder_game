@@ -18,3 +18,7 @@ body {
 .react-terminal-active-input {
 	padding-bottom: 40px;
 }
+
+.react-terminal > pre {
+	background: transparent !important;
+}

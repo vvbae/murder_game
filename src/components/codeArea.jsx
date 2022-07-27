@@ -1,7 +1,6 @@
 import React from 'react';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { dracula } from 'react-syntax-highlighter/dist/esm/styles/hljs';
-// import "../styles/codeArea.css";
 
 export default function CodeArea({ code }) {
   return (
