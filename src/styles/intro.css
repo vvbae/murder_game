@@ -1,0 +1,82 @@
+.sidebar {
+    overflow-y:scroll; 
+    height: 85vh;
+    margin-top: 60px;
+}
+
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+.starter, .credits {
+    color: white;
+    width: 90%;
+}
+
+.credits {
+    margin: 50px;
+    font-family: 'Fira Mono', Consolas, Menlo, Monaco, 'Courier New', Courier, monospace;
+}
+
+.credits p {
+    line-height: 25px;
+}
+
+img {
+    margin-top: 20px;
+    width: 90%;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    color: white;
+    display: block;
+}
+
+input[type=text] {
+    height: 20px;
+    border-radius: 3px;
+    border: none;
+    padding: 3px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Fira Mono', Consolas, Menlo, Monaco, 'Courier New', Courier, monospace;
+}
+
+input[type=submit] {
+    height: 20px;
+    border-radius: 3px;
+    border: none;
+    font-family: 'Fira Mono', Consolas, Menlo, Monaco, 'Courier New', Courier, monospace;
+    background-color: transparent;
+    color: white;
+    font-size: medium;
+    padding: 0;
+}
+
+input[type=submit]:hover {
+    text-decoration: underline;
+}
+
+input:focus {
+    outline:none;
+}
+
+.ans {
+    margin: 50px;
+    color: white;
+    font-family: 'Fira Mono', Consolas, Menlo, Monaco, 'Courier New', Courier, monospace;
+}
+
+a {
+    color: white;
+}
+
+p {
+    color: rgb(233, 232, 232);
+}

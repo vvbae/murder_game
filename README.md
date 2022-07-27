@@ -1,13 +1,14 @@
-# demonstration of [react](https://reactjs.org/) + [sql.js](https://github.com/sql-js/sql.js)
+# The Mystery of Left-hand Slayer
 
-This is a template repository demonstrating the use of sql.js with create-react-app.
+You are the new detective at Buston police apartment, and your first case is a mysterious
+murder case! Use your knowledge of SQL to solve this case. The project is inspired by [The SQL Murder Mystery](https://mystery.knightlab.com/).
 
-The only differences with a traditional create-react-app application are :
- - The usage of [craco](https://github.com/gsoft-inc/craco) to allow providing a custom [webpack](https://webpack.js.org/) configuration
- - a small custom webpack configuration in [`craco.config.js`](./craco.config.js) to copy the wasm module from sql.js to the distributed assets
+### Getting started
 
- Note that you should make sure your server serves `.wasm` files with the right mimetype, that is: `application/wasm`. Otherwise, you'll see the following error: `TypeError: Response has unsupported MIME type`
- 
- See [`src/App.js`](./src/App.js) for the code.
- 
- ### [view the live demo](https://react-sqljs-demo.ophir.dev/)
+* If you are new to SQL, you can start with a starter tutorial like [Select Star SQL](https://selectstarsql.com/).
+
+* If you are experienced with SQL, you can go ahead to play!
+
+### [Walkthrough](./src/solution.sql)
+
+### [Start](https://react-sqljs-demo.ophir.dev/)

@@ -1,0 +1,27 @@
+.__dbk__container, .__dbk__child-wrapper {
+    height: 100vh;
+    background-color: #252a33;
+}
+
+.__dbk__gutter.Dark {
+    background: #1d1f24;
+}
+
+.collapse {
+    margin: 50px;
+    font-family: 'Fira Mono', Consolas, Menlo, Monaco, 'Courier New', Courier, monospace;
+}
+
+.Collapsible {
+    width: 80%;
+    margin: auto;
+    color: white;
+    font-family: 'Fira Mono', Consolas, Menlo, Monaco, 'Courier New', Courier, monospace;
+    margin-bottom: 15px;
+}
+
+.Collapsible span {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    font-size: large;
+}
