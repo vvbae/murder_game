@@ -5,7 +5,7 @@ import ResultsTable from "./resultsTable";
  * A simple SQL read-eval-print-loop
  * @param {{db: import("sql.js").Database}} props
  */
-export default function SQLRepl({ db }) {
+export default function SQLRepl({ db, sql }) {
     const [error, setError] = useState(null);
     const [results, setResults] = useState([]);
     let isValid = true;

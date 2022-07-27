@@ -1,6 +1,6 @@
 import React from 'react';
 import Splitter, { SplitDirection } from '@devbookhq/splitter';
-// import Main from './main';
+import Main from './main';
 import Intro from "./intro";
 
 export default function SideBar({ db }) {
@@ -11,8 +11,7 @@ export default function SideBar({ db }) {
             minWidths={[200, 500]} // In pixels
         >
             <Intro />
-            <Intro />
-            {/* <Main db={db}/> */}
+            <Main db={db}/>
         </Splitter>
     );
 }
