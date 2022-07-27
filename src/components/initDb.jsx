@@ -16,7 +16,7 @@ export default function InitDb() {
         // without any configuration, initSqlJs will fetch the wasm files directly from the same path as the js
         // see ../craco.config.js
         async function fetchData() {
-            const dbName = "murderGame.db";
+            const dbName = "murder_game";
             try {
                 const SQL = await initSqlJs({ locateFile: () => sqlWasm });
                 getDbData(dbName)
