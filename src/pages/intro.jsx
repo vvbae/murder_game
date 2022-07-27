@@ -46,7 +46,8 @@ export default function Intro() {
         <br />
 
         <h2>New to SQL</h2>
-        <p> If you are new to SQL, you could choose to either try the walkthrough.
+        <p> If you are new to SQL, you could choose to either <a href="https://github.com/vvbae/murder_game/blob/master/src/solution.sql" rel="noreferrer">
+        try the walkthrough</a>.
             Or if you want to learn more about SQL, you could follow a complete
             starter tutorial like <a href="https://selectstarsql.com/" rel="noreferrer">
     Select Star SQL</a>.</p>

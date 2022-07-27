@@ -11,4 +11,4 @@ murder case! Use your knowledge of SQL to solve this case. The project is inspir
 
 ### [Walkthrough](./src/solution.sql)
 
-### [Start](https://react-sqljs-demo.ophir.dev/)
+### [Start](https://murder-game-vivi.vercel.app/)
