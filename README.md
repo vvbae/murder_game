@@ -11,4 +11,8 @@ murder case! Use your knowledge of SQL to solve this case. The project is inspir
 
 ### [Walkthrough](./src/solution.sql)
 
-### [Start](https://murder-game-vivi.vercel.app/)
+### Start
+
+npm install
+
+npm run start
