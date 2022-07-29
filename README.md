@@ -13,6 +13,16 @@ murder case! Use your knowledge of SQL to solve this case. The project is inspir
 
 ### Start
 
+download the zip file
+
+cd murder_game
+
 npm install
 
-npm run start
+cd server
+
+npm start
+
+cd ../
+
+npm start
