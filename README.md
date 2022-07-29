@@ -23,6 +23,6 @@ download the zip file
 
 `npm start`
 
-`cd ../`
+open another terminal window
 
 `npm start`
