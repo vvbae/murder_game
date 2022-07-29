@@ -20,7 +20,10 @@ export default function InitDb() {
             try {
                 const SQL = await initSqlJs({ locateFile: () => sqlWasm });
                 getDbData(dbName)
-                .then(data => setDb(new SQL.Database(new Uint8Array(data))));
+                .then(data => {
+                    console.log(data);
+                    setDb(new SQL.Database(new Uint8Array(data)))
+                });
             } catch (err) {
                 setError(err);
             }
