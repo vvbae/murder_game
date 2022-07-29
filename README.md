@@ -15,14 +15,14 @@ murder case! Use your knowledge of SQL to solve this case. The project is inspir
 
 download the zip file
 
-cd murder_game
+`cd murder_game`
 
-npm install
+`npm install`
 
-cd server
+`cd server`
 
-npm start
+`npm start`
 
-cd ../
+`cd ../`
 
-npm start
+`npm start`
