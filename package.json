@@ -23,8 +23,7 @@
     "typescript": "^4.5.5"
   },
   "scripts": {
-    "start": "node server/server.js",
-    "heroku-postbuild": "npm install && npm install --only=dev --no-shrinkwrap && npm run build",
+    "start": "craco start",
     "build": "craco build",
     "test": "craco test --env=jsdom",
     "eject": "craco eject"
